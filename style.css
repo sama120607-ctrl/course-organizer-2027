@@ -1,7 +1,7 @@
 :root {
     --bg-color: #f4f4f4;
     --header-footer: #333333;
-    --pink-color: #ff69b4; /* لون البينك */
+    --pink-color: #ff69b4;
     --pink-hover: #ff1493;
     --text-color: #222222;
 }
@@ -23,7 +23,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block; /* دي الحركة اللي هتخلي اللينكات جنب بعض زي الأيقونات */
+    display: inline-block;
     margin: 0 15px;
 }
 
