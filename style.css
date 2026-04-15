@@ -10,16 +10,36 @@ body { font-family: sans-serif; background-color: var(--bg-color); color: var(--
 
 header { background-color: var(--header-footer); color: white; text-align: center; padding: 30px 0; }
 
-nav { background-color: var(--pink-color); } /* الناف بار بينك */
+nav {
+    background-color: #ff69b4; /* البينك بتاعك */
+    padding: 10px 0;
+    text-align: center;
+}
 
-nav ul { list-style: none; display: flex; justify-content: center; padding: 10px; }
+nav ul {
+    list-style: none; /* بيشيل النقط اللي جنب اللينكات */
+    padding: 0;
+    margin: 0;
+    display: flex; /* دي أهم كلمة عشان يخليهم جنب بعض */
+    justify-content: center; /* بيسنترهم في نص الشريط */
+}
 
-nav ul li { margin: 0 15px; }
+nav ul li {
+    margin: 0 15px; /* مسافة بين كل لينك والتاني */
+}
 
-nav ul li a { color: white; text-decoration: none; padding: 8px 12px; }
+nav ul li a {
+    color: white;
+    text-decoration: none; /* بيشيل الخط اللي تحت اللينك */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
 
-nav ul li a:hover { background-color: var(--pink-hover); border-radius: 4px; }
-
+nav ul li a:hover {
+    background-color: #ff1493; /* لون البينك الأغمق عند الـ Hover */
+    border-radius: 4px;
+}
 main { padding: 20px; max-width: 900px; margin: 20px auto; background-color: white; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
 
 table { width: 100%; border-collapse: collapse; margin-top: 20px; }
